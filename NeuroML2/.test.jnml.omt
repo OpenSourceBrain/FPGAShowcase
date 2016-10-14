@@ -1,0 +1,39 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
+ 
+target: LEMS_simplenet.xml 
+engine: jNeuroML
+mep: .test.mep
+experiments:
+  Pop0_cell3:
+    observables:
+      spike times:
+        file: 
+          path: Pop0_v.dat
+          columns: [0,3]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -55
+        tolerance: 0.
+  Pop1_cell0:
+    observables:
+      spike times:
+        file: 
+          path: Pop1_v.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -55
+        tolerance: 0.00141
+  Pop1_cell1:
+    observables:
+      spike times:
+        file: 
+          path: Pop1_v.dat
+          columns: [0,2]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -55
+        tolerance: 0.00069
