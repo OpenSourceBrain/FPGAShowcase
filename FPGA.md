@@ -1,6 +1,9 @@
 Information on running neuronal simulations on FPGAs
 ----------------------------------------------------
 
+
+*(Contributions/additions to this page welcome! Fork the [source for it on GitHub](https://github.com/OpenSourceBrain/FPGAShowcase/blob/master/FPGA.md) and open a Pull Request)*
+
 ### Background
 
 …
@@ -41,3 +44,5 @@ E. L. Graas, E. A. Brown, Robert H. Lee, Emory University/Georgia Institute of T
 
 [FPGA-based Biophysically-Meaningful Modeling of Olivocerebellar Neurons](http://erasmusbrainproject.com/media/PDFresources/PublicationsBrainFrame/FPGA2014.pdf)
 Georgios Smaragdos, Sebastian Isaza, Martijn Van Eijk, Ioannis Sourdis and Christos Strydis
+
+
