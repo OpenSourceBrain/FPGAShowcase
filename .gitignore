@@ -8,3 +8,4 @@ NeuroML2/*.dat.lems
 NeuroML2/*.hoc
 NeuroML2/*.mod
 NeuroML2/*nrn.py
+arm64
